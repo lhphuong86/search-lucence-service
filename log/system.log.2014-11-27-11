@@ -1,0 +1,7 @@
+ INFO [Thread-0] 2014-11-27 11:03:16,228 Server.java (line 55) org.apache.thrift.transport.TTransportException: Could not create ServerSocket on address 0.0.0.0/0.0.0.0:8899.
+ INFO [Thread-0] 2014-11-27 11:45:30,205 Server.java (line 51) Service Search Start On Port: 8899
+ INFO [Thread-1] 2014-11-27 11:48:23,107 SearchFiles.java (line 102) org.apache.lucene.store.NoSuchDirectoryException: directory '/home/walle/SVN_New/vuigame_java/SEARCH_LUCENE/index/vuigame' does not exist
+ INFO [Thread-1] 2014-11-27 11:48:50,575 SearchFiles.java (line 102) org.apache.lucene.store.NoSuchDirectoryException: directory '/home/walle/SVN_New/vuigame_java/SEARCH_LUCENE/index/vuigame' does not exist
+ INFO [Thread-1] 2014-11-27 11:49:11,093 SearchFiles.java (line 102) org.apache.lucene.store.NoSuchDirectoryException: directory '/home/walle/SVN_New/vuigame_java/SEARCH_LUCENE/index/vuigame' does not exist
+ INFO [Thread-1] 2014-11-27 11:51:35,683 SearchFiles.java (line 102) org.apache.lucene.store.NoSuchDirectoryException: directory '/home/walle/SVN_New/vuigame_java/SEARCH_LUCENE/index/vuigame' does not exist
+ INFO [Thread-1] 2014-11-27 11:53:09,217 SearchFiles.java (line 102) org.apache.lucene.store.NoSuchDirectoryException: directory '/home/walle/SVN_New/vuigame_java/SEARCH_LUCENE/index/vuigame' does not exist

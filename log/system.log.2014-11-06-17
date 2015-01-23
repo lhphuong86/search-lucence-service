@@ -1,0 +1,76 @@
+ INFO [Thread-0] 2014-11-06 17:12:39,489 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...
+ INFO [Thread-0] 2014-11-06 17:14:31,224 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...
+ INFO [Thread-0] 2014-11-06 17:23:53,263 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...
+ INFO [Thread-0] 2014-11-06 17:24:53,421 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...
+ INFO [Thread-0] 2014-11-06 17:27:43,473 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...
+ERROR [Thread-1] 2014-11-06 17:27:53,014 AbstractNonblockingServer.java (line 522) Unexpected throwable while invoking!
+java.lang.NegativeArraySizeException
+	at org.apache.lucene.util.PriorityQueue.<init>(PriorityQueue.java:56)
+	at org.apache.lucene.search.HitQueue.<init>(HitQueue.java:64)
+	at org.apache.lucene.search.TopScoreDocCollector.<init>(TopScoreDocCollector.java:275)
+	at org.apache.lucene.search.TopScoreDocCollector.<init>(TopScoreDocCollector.java:37)
+	at org.apache.lucene.search.TopScoreDocCollector$InOrderTopScoreDocCollector.<init>(TopScoreDocCollector.java:42)
+	at org.apache.lucene.search.TopScoreDocCollector$InOrderTopScoreDocCollector.<init>(TopScoreDocCollector.java:40)
+	at org.apache.lucene.search.TopScoreDocCollector.create(TopScoreDocCollector.java:258)
+	at org.apache.lucene.search.TopScoreDocCollector.create(TopScoreDocCollector.java:238)
+	at core.SearchFiles.search(SearchFiles.java:83)
+	at handler.SearchLuceneHandler.SearchData(SearchLuceneHandler.java:64)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:337)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:322)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.invoke(AbstractNonblockingServer.java:516)
+	at org.apache.thrift.server.TNonblockingServer.requestInvoke(TNonblockingServer.java:115)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:210)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:202)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:158)
+ INFO [Thread-0] 2014-11-06 17:28:56,754 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...
+ERROR [Thread-1] 2014-11-06 17:29:56,543 AbstractNonblockingServer.java (line 522) Unexpected throwable while invoking!
+java.lang.NegativeArraySizeException
+	at org.apache.lucene.util.PriorityQueue.<init>(PriorityQueue.java:56)
+	at org.apache.lucene.search.HitQueue.<init>(HitQueue.java:64)
+	at org.apache.lucene.search.TopScoreDocCollector.<init>(TopScoreDocCollector.java:275)
+	at org.apache.lucene.search.TopScoreDocCollector.<init>(TopScoreDocCollector.java:37)
+	at org.apache.lucene.search.TopScoreDocCollector$InOrderTopScoreDocCollector.<init>(TopScoreDocCollector.java:42)
+	at org.apache.lucene.search.TopScoreDocCollector$InOrderTopScoreDocCollector.<init>(TopScoreDocCollector.java:40)
+	at org.apache.lucene.search.TopScoreDocCollector.create(TopScoreDocCollector.java:258)
+	at org.apache.lucene.search.TopScoreDocCollector.create(TopScoreDocCollector.java:238)
+	at core.SearchFiles.search(SearchFiles.java:83)
+	at handler.SearchLuceneHandler.SearchData(SearchLuceneHandler.java:64)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:337)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:322)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.invoke(AbstractNonblockingServer.java:516)
+	at org.apache.thrift.server.TNonblockingServer.requestInvoke(TNonblockingServer.java:115)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:210)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:202)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:158)
+ INFO [Thread-0] 2014-11-06 17:33:12,496 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...
+ERROR [Thread-1] 2014-11-06 17:33:25,505 AbstractNonblockingServer.java (line 522) Unexpected throwable while invoking!
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at core.SearchFiles.search(SearchFiles.java:91)
+	at handler.SearchLuceneHandler.SearchData(SearchLuceneHandler.java:64)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:337)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:322)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.invoke(AbstractNonblockingServer.java:516)
+	at org.apache.thrift.server.TNonblockingServer.requestInvoke(TNonblockingServer.java:115)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:210)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:202)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:158)
+ERROR [Thread-1] 2014-11-06 17:33:37,451 AbstractNonblockingServer.java (line 522) Unexpected throwable while invoking!
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at core.SearchFiles.search(SearchFiles.java:91)
+	at handler.SearchLuceneHandler.SearchData(SearchLuceneHandler.java:64)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:337)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:322)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.invoke(AbstractNonblockingServer.java:516)
+	at org.apache.thrift.server.TNonblockingServer.requestInvoke(TNonblockingServer.java:115)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:210)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:202)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:158)
+ INFO [Thread-0] 2014-11-06 17:35:24,889 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...

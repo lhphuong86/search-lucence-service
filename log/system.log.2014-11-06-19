@@ -1,0 +1,68 @@
+ INFO [Thread-0] 2014-11-06 19:37:20,787 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...
+ERROR [Thread-1] 2014-11-06 19:37:56,541 AbstractNonblockingServer.java (line 522) Unexpected throwable while invoking!
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at core.SearchFiles.search(SearchFiles.java:91)
+	at handler.SearchLuceneHandler.SearchData(SearchLuceneHandler.java:64)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:337)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:322)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.invoke(AbstractNonblockingServer.java:516)
+	at org.apache.thrift.server.TNonblockingServer.requestInvoke(TNonblockingServer.java:115)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:210)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:202)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:158)
+ERROR [Thread-1] 2014-11-06 19:38:18,910 AbstractNonblockingServer.java (line 522) Unexpected throwable while invoking!
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at core.SearchFiles.search(SearchFiles.java:91)
+	at handler.SearchLuceneHandler.SearchData(SearchLuceneHandler.java:64)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:337)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:322)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.invoke(AbstractNonblockingServer.java:516)
+	at org.apache.thrift.server.TNonblockingServer.requestInvoke(TNonblockingServer.java:115)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:210)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:202)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:158)
+ERROR [Thread-1] 2014-11-06 19:38:41,472 AbstractNonblockingServer.java (line 522) Unexpected throwable while invoking!
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at core.SearchFiles.search(SearchFiles.java:91)
+	at handler.SearchLuceneHandler.SearchData(SearchLuceneHandler.java:64)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:337)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:322)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.invoke(AbstractNonblockingServer.java:516)
+	at org.apache.thrift.server.TNonblockingServer.requestInvoke(TNonblockingServer.java:115)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:210)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:202)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:158)
+ERROR [Thread-1] 2014-11-06 19:41:07,467 AbstractNonblockingServer.java (line 522) Unexpected throwable while invoking!
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at core.SearchFiles.search(SearchFiles.java:91)
+	at handler.SearchLuceneHandler.SearchData(SearchLuceneHandler.java:64)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:337)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:322)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.invoke(AbstractNonblockingServer.java:516)
+	at org.apache.thrift.server.TNonblockingServer.requestInvoke(TNonblockingServer.java:115)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:210)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:202)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:158)
+ INFO [Thread-0] 2014-11-06 19:43:09,400 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...
+ERROR [Thread-1] 2014-11-06 19:43:24,628 AbstractNonblockingServer.java (line 522) Unexpected throwable while invoking!
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at core.SearchFiles.search(SearchFiles.java:91)
+	at handler.SearchLuceneHandler.SearchData(SearchLuceneHandler.java:64)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:337)
+	at SearchLucene.SearchLuceneService$Processor$SearchData.getResult(SearchLuceneService.java:322)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.invoke(AbstractNonblockingServer.java:516)
+	at org.apache.thrift.server.TNonblockingServer.requestInvoke(TNonblockingServer.java:115)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:210)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:202)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:158)
+ INFO [Thread-0] 2014-11-06 19:45:44,005 Server.java (line 49) Starting TNonBlockingserver on port 8889 ...
